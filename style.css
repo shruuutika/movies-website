@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    background-image: url('./Images/movie-g809a86d0b_1280.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.back::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 255, 0.104);
+}
+.z-3{
+    z-index: 2;
+}
+
+.back h1{
+    font-weight: 900;
+}
+
+.card1 img{
+    border-radius: 2rem;
+}
