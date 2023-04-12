@@ -31,3 +31,61 @@
 .card1 img{
     border-radius: 2rem;
 }
+
+#popular{
+    background-color:  #0c1e35;
+}
+
+#tv{
+    background-color:  #0c1e35;
+}
+
+.curve img{
+   border-radius: 1rem;
+}
+
+#footer{
+    background-color:  #0c1e35;
+}
+
+#form{
+    background-color:  #0c1e35;
+}
+
+.middle{
+    background-image: url('./Images/filmstrip-g6cbabe7e8_1920.jpg');
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.middle::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0c1e358b;
+}
+.z{
+    z-index: 4;
+    position: absolute;
+}
+
+.form1{
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 4rem;
+}
